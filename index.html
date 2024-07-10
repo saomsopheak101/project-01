@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offcavas</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container-lg my-5">
+            <div class="row d-flex ">
+                <div class="col-lg-4 ">
+                    <div class="btn-offcanvas mb-4 d-lg-none ">
+                        <span class="h6 mb-0 fw-bold d-lg-none ms-2 fs-4 ">Setting</span>
+                        <button aria-controls="offcanvasSidebarLeft" class="border-0 bg-transparent"
+                            data-bs-target="#offcanvasSidebarLeft" data-bs-toggle="offcanvas" type="button">
+                            <i class="btn btn-primary fw-bold fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="offcanvas-lg offcanvas-start " tabindex="-1" id="offcanvasSidebarLeft">
+                        <div class="offcanvas-header p-0 ">
+                            <button aria-label="Close" class="btn-close text-reset ms-auto m-3 " data-bs-dismiss="offcanvas"
+                                data-bs-target="#offcanvasSidebarLeft" type="button"></button>
+                        </div>
+                        <div class="card border-0 bg-white">
+                            <div class="card-header mt-2 border-0 bg-white ">
+                                <span class="mb-0 fs-4 fw-bold ">
+                                    <i class="fa-solid fa-circle-chevron-left me-2 ps-3 fs-5 "></i>Setting
+                                </span>
+                                
+                            </div>
+                            <div class="card-body p-0 ps-3">
+                                <ul >
+                                    <div class="py-1 sub-title mt-2 mb-2">
+                                        <span class="fs-6">Setting</span>
+                                    </div>
+                                    <ul class="nav flex-column gap-2 border-0">
+                                        <li class="nav-item ">
+                                            <a class="nav-link d-flex mb-0 me-4" href="">
+                                                <span class="text-dark "><i class="fa-solid fa-gear me-2"></i>Group
+                                                        Information</span> </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                
+                                    <div class="py-1 sub-title mt-2 mb-2">
+                                        <span class="fs-6">Admin Tool</span>
+                                    </div>
+                                    <ul class="nav flex-column gap-2 border-0">
+                                        <li class="nav-item ">
+                                            <a class="nav-link d-flex mb-0 me-4" href="">
+                                                <span class="text-dark  position-relative"><i
+                                                        class="fa-regular fa-user me-2"></i>Manage
+                                                    members</span>
+                                                <span class="position-absolute ms-6 start-100 translate-middle badge rounded-pill bg-danger">
+                                                    9+
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link d-flex mb-0 active me-4" href="">
+                                                <span class="text-dark "><i
+                                                        class="fa-solid fa-gear me-2 "></i>Manage
+                                                    Contents</span> </i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link d-flex mb-0 me-4" href="">
+                                                <span class="text-dark "><i
+                                                        class="fa-solid fa-circle-info me-2 "></i>Reports</span>
+
+                                            </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link d-flex mb-0 me-4" href="">
+                                                <span class="text-dark  "><i
+                                                        class="fa-solid fa-clipboard-list me-2"></i>Ativity
+                                                    Log</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="py-1 sub-title mt-2 mb-2">
+                                        <span class="fs-6">Group Removal</span>
+                                    </div>
+                                    <ul class="nav flex-column gap-2 border-0">
+                                        <li class="nav-item ">
+                                            <a class="nav-link d-flex mb-0 me-4" href="">
+                                                <span class="text-dark "><i
+                                                        class="fa-regular fa-trash-can me-2 text-black "></i>Delete
+                                                    Group</span> </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 ps-3 ">
+                    <div class="card border-0 rounded-2">
+                        <div class="card-header border-top-1 bg-white">
+                            <h4 class="title p-2">Manage Contents</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-img">
+                                <img src="img/no-data.svg" alt=""> 
+                            </div>
+                            <div class="tilte">
+                                <p>No result found</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
